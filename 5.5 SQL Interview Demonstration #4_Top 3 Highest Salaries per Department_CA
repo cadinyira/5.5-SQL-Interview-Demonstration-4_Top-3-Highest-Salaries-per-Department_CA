@@ -17,3 +17,4 @@ FROM (
 ) AS ranked_employees
 WHERE salary_rank <= 3
 ORDER BY department_id, employee_salary DESC;
+
